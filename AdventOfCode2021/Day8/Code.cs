@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    public class DaySeven
+    public class DayEight
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day7/Data.txt");
+            var data = File.ReadAllLines("./Day8/Data.txt");
             
             return "";
         }
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day7/Data.txt");
+            var data = File.ReadAllLines("./Day8/Data.txt");
 
             return "";
         }
