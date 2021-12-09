@@ -48,8 +48,14 @@
 //Console.WriteLine("Day 8 - Part 2");
 //Console.WriteLine(dayEight.ProcessDataPt2());
 
-DayNine day = new DayNine();
-Console.WriteLine("Day 9");
+//DayNine day = new DayNine();
+//Console.WriteLine("Day 9");
+//Console.WriteLine(day.ProcessData());
+//Console.WriteLine("Day 9 - Part 2");
+//Console.WriteLine(day.ProcessDataPt2());
+
+DayTen day = new DayTen();
+Console.WriteLine("Day 10");
 Console.WriteLine(day.ProcessData());
-Console.WriteLine("Day 9 - Part 2");
+Console.WriteLine("Day 10 - Part 2");
 Console.WriteLine(day.ProcessDataPt2());

@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day2/Data.txt");
+            var data = File.ReadAllLines("./Day02/Data.txt");
 
             var posX = 0;
             var posY = 0;
@@ -42,7 +42,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day2/Data.txt");
+            var data = File.ReadAllLines("./Day02/Data.txt");
 
             var posX = 0;
             var posY = 0;

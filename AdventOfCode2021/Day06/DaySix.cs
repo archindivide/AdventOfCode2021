@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day6/Data.txt");
+            var data = File.ReadAllLines("./Day06/Data.txt");
             var newFish = data.Single().Split(",");
             var school = new List<LanternFish>();
 
@@ -38,7 +38,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day6/Data.txt");
+            var data = File.ReadAllLines("./Day06/Data.txt");
             var fish = data.Single().Split(",").Select(d => int.Parse(d));
 
             var spawnCycle = new long[9];

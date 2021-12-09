@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day8/Data.txt");
+            var data = File.ReadAllLines("./Day08/Data.txt");
 
             var countEasyNums = 0;
 
@@ -32,7 +32,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day8/Data.txt");
+            var data = File.ReadAllLines("./Day08/Data.txt");
 
             long returnVal = 0;
 

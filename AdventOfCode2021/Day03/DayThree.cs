@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day3/Data.txt");
+            var data = File.ReadAllLines("./Day03/Data.txt");
 
             var bits = new List<int>();
             
@@ -50,7 +50,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day3/Data.txt");
+            var data = File.ReadAllLines("./Day03/Data.txt");
 
             var bits = new List<int>();
 

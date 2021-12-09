@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day7/Data.txt");
+            var data = File.ReadAllLines("./Day07/Data.txt");
             var crabSpots = data.First().Split(',').Select(d => int.Parse(d)).ToList();
             var mostCommon = new Dictionary<int, int>();
 
@@ -57,7 +57,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day7/Data.txt");
+            var data = File.ReadAllLines("./Day07/Data.txt");
             var crabSpots = data.First().Split(',').Select(d => int.Parse(d)).ToList();
 
             var minLocation = crabSpots.Min();

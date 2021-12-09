@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day5/Data.txt");
+            var data = File.ReadAllLines("./Day05/Data.txt");
             var lines = new List<LineSegment>();
 
             foreach (var datum in data)
@@ -72,7 +72,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day5/Data.txt");
+            var data = File.ReadAllLines("./Day05/Data.txt");
             var lines = new List<LineSegment>();
 
             foreach (var datum in data)

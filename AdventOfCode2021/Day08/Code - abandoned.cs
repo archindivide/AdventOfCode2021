@@ -10,7 +10,7 @@ namespace AdventOfCode2021
     {
         public string ProcessData()
         {
-            var data = File.ReadAllLines("./Day8/Data.txt");
+            var data = File.ReadAllLines("./Day08/Data.txt");
             //maybe used later, got a little ahead of myself and started writing the decoding method
             //var defaultValues = new Dictionary<string, int>();
             //defaultValues.Add("abcefg", 0);
@@ -46,7 +46,7 @@ namespace AdventOfCode2021
 
         public string ProcessDataPt2()
         {
-            var data = File.ReadAllLines("./Day8/Data.txt");
+            var data = File.ReadAllLines("./Day08/Data.txt");
 
             long returnVal = 0;
 
